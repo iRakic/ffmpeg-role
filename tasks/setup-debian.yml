@@ -1,0 +1,7 @@
+---
+- name: Installing FFmpeg
+  ansible.builtin.apt:
+    pkg:
+      - ffmpeg
+    state: present
+    update_cache: yes

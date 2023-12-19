@@ -1,0 +1,19 @@
+galaxy_info:
+  role_name: ffmpeg
+  author: iRakic
+  description: Role for installing FFmpeg
+
+  license: license (MIT)
+
+  min_ansible_version: 2.12
+  
+  platforms:
+    - name: Debian
+      versions:
+      - 12
+  
+  galaxy_tags:
+    - ffmpeg
+    - debian  
+
+dependencies: []  
